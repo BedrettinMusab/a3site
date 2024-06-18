@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - Um lugar que escuta as pessoas</title>
+    <link rel="stylesheet" href="depoimentos.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="menu-icon">
+                <img src="menu-icon.png" alt="Menu" id="menuIcon">
+                <div class="menu-dropdown" id="menuDropdown">
+                    <a href="index.html">Home</a>
+                    <a href="locais.html">Locais</a>
+                    <a href="artigos.html">Artigos</a>
+                    <a href="depoimentos.html">Depoimentos</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="profile-icon">
+                <img src="profile-icon.png" alt="Perfil" id="profileIcon">
+                <div class="profile-dropdown" id="profileDropdown">
+                    <a href="#">Criar conta</a>
+                    <a href="#">Login</a>
+                    <a href="#">Sair</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="brain-logo.png" alt="Logo Cérebro">
+            <h1>Depoimentos</h1>
+        </div>
+    </section>
+    <section class="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimentos-content">
+            <button class="arrow-left" onclick="prevDepoimento()">&#8592;</button>
+            <div class="depoimento">
+                <p>Depoimento 1: Exemplo</p>
+                <button>Ler mais</button>
+            </div>
+            <div class="depoimento">
+                <p>Depoimento 2: Exemplo</p>
+                <button>Ler mais</button>
+            </div>
+            <div class="depoimento">
+                <p>Depoimento 3: Exemplo</p>
+                <button>Ler mais</button>
+            </div>
+            <button class="arrow-right" onclick="nextDepoimento()">&#8594;</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Um lugar que escuta as pessoas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="depoimentos.js"></script>
+</body>
+</html>

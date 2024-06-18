@@ -1,0 +1,136 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content .menu-icon img,
+.header-content .profile-icon img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-content .logo img {
+    height: 50px;
+}
+
+.menu-icon,
+.profile-icon {
+    position: relative;
+}
+
+.menu-dropdown,
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #FFDD00;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menu-dropdown a,
+.profile-dropdown a {
+    color: #003366;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-dropdown a:hover,
+.profile-dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+.hero {
+    background-color: #FFDD00;
+    color: #003366;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-content img {
+    height: 100px;
+}
+
+.hero-content h1 {
+    margin: 20px 0 0;
+}
+
+/* Estilos para a seção de locais */
+.locais {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #FFDD00;
+    color: #003366;
+}
+
+.locais h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #003366;
+}
+
+.locais-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.locais-content .map {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.locais-content .map iframe {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #003366;
+    border-radius: 10px;
+}
+
+.locais-content .texto {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

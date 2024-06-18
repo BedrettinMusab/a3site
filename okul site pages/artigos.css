@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content .menu-icon img,
+.header-content .profile-icon img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-content .logo img {
+    height: 50px;
+}
+
+.menu-icon,
+.profile-icon {
+    position: relative;
+}
+
+.menu-dropdown,
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #FFDD00;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menu-dropdown a,
+.profile-dropdown a {
+    color: #003366;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-dropdown a:hover,
+.profile-dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+.hero {
+    background-color: #FFDD00;
+    color: #003366;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-content img {
+    height: 100px;
+}
+
+.hero-content h1 {
+    margin: 20px 0 0;
+}
+
+.artigos {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.artigo-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.artigo-nav article {
+    max-width: 600px;
+    text-align: left;
+}
+
+.nav-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background-color: #002244;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
